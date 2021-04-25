@@ -3,6 +3,7 @@ import { User } from "../entities/User";
 import { UsersRepository } from "../repositories/UsersRepository";
 
 class UsersService {
+    [x: string]: any;
     private  usersRepository: Repository<User>
 
     constructor(){
