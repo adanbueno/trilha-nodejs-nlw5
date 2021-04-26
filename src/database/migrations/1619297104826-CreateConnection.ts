@@ -5,9 +5,7 @@ import {
   TableForeignKey,
 } from "typeorm";
 
-export class CreateConnection1619297104826 implements MigrationInterface {
-  name?: string;
-
+export default class CreateConnection1619297104826 implements MigrationInterface {  
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
@@ -49,7 +47,7 @@ export class CreateConnection1619297104826 implements MigrationInterface {
       "connections",
       new TableForeignKey({
         name: "FKConnectionUser",
-        referencedTableName: "user",
+        referencedTableName: "users",
         referencedColumnNames: ["id"],
         columnNames: ["user_id"],
         onDelete: "SET NULL",
