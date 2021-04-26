@@ -47,3 +47,8 @@ $ yarn dev
 
 # running on port 3333
 ```
+
+
+[nodejs]: https://nodejs.org/
+[typescript]: https://www.typescriptlang.org/
+[yarn]: https://yarnpkg.com/
