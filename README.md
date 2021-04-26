@@ -3,7 +3,7 @@
 A backend application, where an instant support and customer chat was created, using websocket. 
 
 <h1 align="center">
-  ![] (https://i.imgur.com/48Sm2wi.png)
+ <a href="https://imgur.com/48Sm2wi"><img src="https://i.imgur.com/48Sm2wi.png" title="source: imgur.com" /></a>
 </h1>
 
 
